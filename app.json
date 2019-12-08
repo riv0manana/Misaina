@@ -1,6 +1,7 @@
 {
     "expo": {
         "name": "Misaina",
+        "description": "Misaina is simple memory game for developer. Feel free to check source code at https://github.com/riv0manana/Misaina.",
         "slug": "misaina",
         "privacy": "public",
         "sdkVersion": "35.0.0",
@@ -13,7 +14,7 @@
         "orientation": "portrait",
         "icon": "./assets/icon.png",
         "splash": {
-            "image": "./assets/splash.png",
+            "image": "./assets/icon.png",
             "resizeMode": "contain",
             "backgroundColor": "#ffffff"
         },
@@ -25,6 +26,9 @@
         ],
         "ios": {
             "supportsTablet": true
+        },
+        "android": {
+            "package": "mg.riv0manana.misaina"
         }
     }
 }
