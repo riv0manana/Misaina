@@ -14,7 +14,7 @@ const Main = props => {
 			</Header>
 			<GameContainer {...props} />
 			<Footer style={styles.Footer}>
-				<Text style={styles.TextFooter}>Built by riv0manana - ARTRIV</Text>
+				<Text style={styles.TextFooter}>Built by riv0manana</Text>
 			</Footer>
 		</Container>
 	)
