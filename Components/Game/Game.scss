@@ -1,0 +1,163 @@
+.game-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    .game-state-paraph {
+        margin-bottom: 30px;
+        align-self: center;
+        justify-self: center;
+        p {
+            color: #6BBCE5;
+            font-weight: 900;
+            max-width: 500px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    .btn-timer {
+        min-width: 300px;
+        margin-top: 60px;
+        align-self: center;
+        justify-self: center;
+    }
+}
+
+.game-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+    width: 142px;
+    height: 142px;
+    border-radius: 50%;
+    //border: 3px solid #000;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    .hide-cookie {
+        width: 100%;
+        height: 100%;
+    }
+    .content-image {
+        width: 100%;
+    }
+}
+
+.right-pin {
+    position: absolute;
+    z-index: 25;
+    top: 0;
+    right: 0;
+    svg {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media screen and (max-width: 1780px) {
+    .round-card {
+        width: 112px;
+        height: 112px;
+        .content-image {
+            width: 90%;
+        }
+    }
+    .right-pin {
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 1640px) {
+    .round-card {
+        width: 92px;
+        height: 92px;
+    }
+    .right-pin {
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .round-card {
+        width: 72px;
+        height: 72px;
+    }
+    .right-pin {
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .game-wrapper {
+        display: flex;
+        flex-direction: column;
+        .game-state-paraph {
+            margin-bottom: 0;
+            margin-top: 30px;
+            align-self: center;
+            justify-self: center;
+            p {
+                color: #6BBCE5;
+                font-weight: 900;
+            }
+        }
+        .btn-timer {
+            margin-bottom: 30px;
+            margin-top: 0;
+            width: 100%;
+            align-self: center;
+            justify-self: center;
+        }
+    }
+    .round-card {
+        width: 72px;
+        height: 72px;
+        //border: 2px solid #000;
+        .hide-cookie {
+            width: 100%;
+            height: 100%;
+        }
+        .content-image {
+            width: 100%;
+        }
+    }
+    .right-pin {
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .round-card {
+        width: 58px;
+        height: 58px;
+        margin: 5px 5px 5px 5px;
+        //border: 1px solid #000;
+        .content-image {
+            width: 100%;
+        }
+    }
+    .right-pin {
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+}
